@@ -1,5 +1,16 @@
+
+
+/*
+The News Api Which I Have Used Here Is Of Development Version
+so it doesnt Work on Deployed Website but yes it does work on
+local system, also if i would have wnated to show the data i would have need
+to pay certain Amount to Them But Yess I Didnt, So Website Does Work but To 
+show the news I Have to Pay!
+*/
+
+
 const API_KEY = "ababe08f428d44d58a42c35d39e3eb5d";
-const url = "https://newsapi.org/v2/everything?q=";
+const url = "https://newsapi.org/v2/everything?q=";  
 window.addEventListener('load', () => {
   fetchNews("India");
 })
